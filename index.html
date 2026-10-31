@@ -157,7 +157,7 @@ footer .gut{font-family:var(--mono);font-size:12px;color:var(--muted);padding-bl
   <div class="gut tabs" role="tablist">
     <button class="tab" role="tab" id="t-about" aria-controls="about" data-t="about" aria-selected="true">About</button>
     <button class="tab" role="tab" id="t-experience" aria-controls="experience" data-t="experience" aria-selected="false">Experience <small>11</small></button>
-    <button class="tab" role="tab" id="t-projects" aria-controls="projects" data-t="projects" aria-selected="false">Projects <small>3</small></button>
+    <button class="tab" role="tab" id="t-projects" aria-controls="projects" data-t="projects" aria-selected="false">Projects <small>6</small></button>
     <button class="tab" role="tab" id="t-tools" aria-controls="tools" data-t="tools" aria-selected="false">Tools</button>
   </div>
 </nav>
@@ -175,7 +175,7 @@ footer .gut{font-family:var(--mono);font-size:12px;color:var(--muted);padding-bl
       <p class="sub">Go to</p>
       <div class="jump">
         <button type="button" data-go="experience"><b>Experience</b><span>Collins Aerospace, Heatmasters Mechanical and Purdue Space Program</span></button>
-        <button type="button" data-go="projects"><b>Projects</b><span>EPICS beep baseball and personal builds</span></button>
+        <button type="button" data-go="projects"><b>Projects</b><span>EPICS, personal builds and high school competitions</span></button>
         <button type="button" data-go="tools"><b>Tools</b><span>CAD, BIM, analysis software and shop skills</span></button>
       </div>
     </section>
@@ -301,6 +301,7 @@ footer .gut{font-family:var(--mono);font-size:12px;color:var(--muted);padding-bl
           <button class="chip filt" type="button" data-f="all" aria-pressed="true">All</button>
           <button class="chip filt" type="button" data-f="team" aria-pressed="false">Student teams</button>
           <button class="chip filt" type="button" data-f="personal" aria-pressed="false">Personal</button>
+          <button class="chip filt" type="button" data-f="hs" aria-pressed="false">High school</button>
           <button class="chip expand" type="button" aria-pressed="false">Expand all</button>
         </div>
       </div>
@@ -358,6 +359,30 @@ footer .gut{font-family:var(--mono);font-size:12px;color:var(--muted);padding-bl
             <dl class="tb"><div><dt>Cost</dt><dd>~$15</dd></div><div><dt>Fuel</dt><dd>Propane</dd></div><div><dt>Materials</dt><dd>Silicone tubing, aluminum cans</dd></div></dl>
           </div>
         </details>
+        <details class="sheet" data-k="hs">
+          <summary><span class="dwg">TR-01</span><span class="ttl"><b>TARC Model Rocket</b><span>JJPL · John P. Stevens High School</span></span><span class="date">High school</span><span class="chev" aria-hidden="true"></span></summary>
+          <div class="inner">
+            <div class="body"><p>Designed, built and launched model rockets for the Team America Rocketry Challenge. Each rocket carried an egg payload that had to survive the flight.</p>
+              <ul><li>Worked on the rocket structure and fins in CAD.</li><li>Helped build and integrate the solid rocket motor propulsion components.</li><li>Integrated the egg payload section and protected it through launch, ascent and recovery.</li><li>Rebuilt the parachute deployment system on a tight deadline after it failed right before an official launch.</li><li>Team advanced to the TARC National Finals.</li><li>Placed 44th of 724 teams in an earlier season.</li></ul></div>
+            <dl class="tb"><div><dt>Result</dt><dd>National Finals</dd></div><div><dt>Best rank</dt><dd>44th of 724</dd></div><div><dt>Payload</dt><dd>Egg</dd></div></dl>
+          </div>
+        </details>
+        <details class="sheet" data-k="hs">
+          <summary><span class="dwg">SX-01</span><span class="ttl"><b>StellarXplorers Mission Planning</b><span>National space mission design competition</span></span><span class="date">High school</span><span class="chev" aria-hidden="true"></span></summary>
+          <div class="inner">
+            <div class="body"><p>Planned satellite orbits and space missions for the StellarXplorers national competition using Ansys Systems Tool Kit (STK).</p>
+              <ul><li>Modeled and analyzed orbital scenarios in STK.</li><li>Used orbital mechanics to compare mission configurations.</li><li>Earned the Ansys STK Level 1 certification.</li><li>Team placed 16th nationally.</li></ul></div>
+            <dl class="tb"><div><dt>Placement</dt><dd>16th nationally</dd></div><div><dt>Certification</dt><dd>STK Level 1</dd></div><div><dt>Tools</dt><dd><span class="tools"><span>Ansys STK</span></span></dd></div></dl>
+          </div>
+        </details>
+        <details class="sheet" data-k="hs">
+          <summary><span class="dwg">AQ-01</span><span class="ttl"><b>Portable PM2.5 Air Monitor</b><span>NJ Governor's STEM Scholars</span></span><span class="date">High school</span><span class="chev" aria-hidden="true"></span></summary>
+          <div class="inner">
+            <div class="body"><p>Built a portable device that measures fine particulate (PM2.5) air pollution and shows the readings on an LCD.</p>
+              <ul><li>Integrated a laser PM2.5 particle sensor with an Arduino.</li><li>Added an accelerometer for motion monitoring.</li><li>Wired and tested the circuit on a breadboard.</li><li>Packaged the electronics into a portable unit.</li></ul></div>
+            <dl class="tb"><div><dt>Platform</dt><dd>Arduino</dd></div><div><dt>Sensors</dt><dd>PM2.5 laser, accelerometer</dd></div><div><dt>Display</dt><dd>LCD</dd></div></dl>
+          </div>
+        </details>
       </div>
     </section>
 
@@ -366,7 +391,7 @@ footer .gut{font-family:var(--mono);font-size:12px;color:var(--muted);padding-bl
       <div class="skills">
         <div><h3>CAD &amp; PLM</h3><div class="tools"><span>Siemens NX</span><span>Teamcenter PDM</span><span>SolidWorks</span><span>Fusion 360</span><span>Onshape</span></div></div>
         <div><h3>Building systems</h3><div class="tools"><span>Autodesk Revit</span><span>AutoCAD</span><span>Bluebeam Revu</span><span>Carrier HAP</span></div></div>
-        <div><h3>Analysis &amp; code</h3><div class="tools"><span>MATLAB</span><span>Python</span><span>Excel</span><span>Arduino</span><span>LTspice</span></div></div>
+        <div><h3>Analysis &amp; code</h3><div class="tools"><span>MATLAB</span><span>Python</span><span>Excel</span><span>Arduino</span><span>LTspice</span><span>Ansys STK (Level 1)</span></div></div>
         <div><h3>Shop</h3><div class="tools"><span>CNC milling</span><span>Lathe</span><span>Soldering</span><span>Breadboarding</span><span>3D printing</span></div></div>
       </div>
       <h3 class="sub">Focus areas</h3>
